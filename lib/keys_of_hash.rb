@@ -1,5 +1,7 @@
+require "pry"
+
 class Hash
   def keys_of(arguments)
-    :animals.to_ary 
+    binding.pry
   end
 end
