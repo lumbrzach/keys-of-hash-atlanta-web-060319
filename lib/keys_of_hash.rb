@@ -7,6 +7,7 @@ class Hash
       # binding.pry
       if arguments == value
         array << key
+        binding.pry
       end
     end
     array
