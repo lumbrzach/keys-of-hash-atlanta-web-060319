@@ -1,5 +1,5 @@
 class Hash
   def keys_of(arguments)
-    arguments = :animals
+    arguments = :animals.to_a 
   end
 end
